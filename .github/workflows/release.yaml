@@ -11,6 +11,7 @@ jobs:
   release:
     permissions:
       contents: write
+      pull-requests: write
     uses: boldlink/terraform-module-support/.github/workflows/release.yaml@main
     with:
       config-name:  workflows/config/rd-config.yaml
