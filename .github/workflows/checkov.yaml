@@ -15,10 +15,8 @@ on:
       - 'chores/*'
       - 'automatic*'
 
-permissions: read-all
-
 jobs:
   checkov-scan:
-    uses: boldlink/terraform-module-support/.github/workflows/checkov.yaml@main
+    uses: boldlink/terraform-module-support/.github/workflows/checkov.yaml@1.0.0
     secrets:
       SLACK_WEBHOOK : ${{secrets.SLACK_WEBHOOK}}

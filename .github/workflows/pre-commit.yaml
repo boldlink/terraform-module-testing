@@ -15,13 +15,9 @@ on:
       - 'chores/*'
       - 'automatic*'
 
-permissions: read-all
-
 jobs:
   pre-commit:
-    permissions:
-      contents: write
-    uses: boldlink/terraform-module-support/.github/workflows/pre-commit.yaml@main
+    uses: boldlink/terraform-module-support/.github/workflows/pre-commit.yaml@1.0.0
     secrets:
       AUTOMATION_TOKEN: ${{ secrets.AUTOMATION_TOKEN }}
       SLACK_WEBHOOK : ${{secrets.SLACK_WEBHOOK}}
