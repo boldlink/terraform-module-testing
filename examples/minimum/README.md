@@ -1,9 +1,11 @@
-[![Build Status](https://github.com/boldlink/terraform-module-template/actions/workflows/update.yaml/badge.svg)](https://github.com/boldlink/terraform-module-template/actions)
-[![Build Status](https://github.com/boldlink/terraform-module-template/actions/workflows/release.yaml/badge.svg)](https://github.com/boldlink/terraform-module-template/actions)
-[![Build Status](https://github.com/boldlink/terraform-module-template/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/boldlink/terraform-module-template/actions)
-[![Build Status](https://github.com/boldlink/terraform-module-template/actions/workflows/pr-labeler.yaml/badge.svg)](https://github.com/boldlink/terraform-module-template/actions)
-[![Build Status](https://github.com/boldlink/terraform-module-template/actions/workflows/checkov.yaml/badge.svg)](https://github.com/boldlink/terraform-module-template/actions)
-[![Build Status](https://github.com/boldlink/terraform-module-template/actions/workflows/auto-badge.yaml/badge.svg)](https://github.com/boldlink/terraform-module-template/actions)
+[![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://github.com/boldlink/terraform-module-testing/blob/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/release/boldlink/terraform-module-testing.svg)](https://github.com/boldlink/terraform-module-testing/releases/latest)
+[![Build Status](https://github.com/boldlink/terraform-module-testing/actions/workflows/update.yaml/badge.svg)](https://github.com/boldlink/terraform-module-testing/actions)
+[![Build Status](https://github.com/boldlink/terraform-module-testing/actions/workflows/release.yaml/badge.svg)](https://github.com/boldlink/terraform-module-testing/actions)
+[![Build Status](https://github.com/boldlink/terraform-module-testing/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/boldlink/terraform-module-testing/actions)
+[![Build Status](https://github.com/boldlink/terraform-module-testing/actions/workflows/pr-labeler.yaml/badge.svg)](https://github.com/boldlink/terraform-module-testing/actions)
+[![Build Status](https://github.com/boldlink/terraform-module-testing/actions/workflows/checkov.yaml/badge.svg)](https://github.com/boldlink/terraform-module-testing/actions)
+[![Build Status](https://github.com/boldlink/terraform-module-testing/actions/workflows/auto-badge.yaml/badge.svg)](https://github.com/boldlink/terraform-module-testing/actions)
 
 [<img src="https://avatars.githubusercontent.com/u/25388280?s=200&v=4" width="96"/>](https://boldlink.io)
 
