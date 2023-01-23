@@ -1,8 +1,9 @@
 name: update-files
 
 on:
-  schedule:
-    - cron: "00 17 * * * "
+  push:
+    branches:
+      - main
 
 permissions: read-all
 
