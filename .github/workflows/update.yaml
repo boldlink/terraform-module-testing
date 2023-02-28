@@ -2,7 +2,7 @@ name: update-files
 
 on:
   schedule:
-    - cron: "00/30 * * * *"
+    - cron: "00 17 * * *"
 
 permissions: read-all
 
@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: boldlink/terraform-module-support/.github/workflows/update.yaml@fix/automation-branch-prefix
+    uses: boldlink/terraform-module-support/.github/workflows/update.yaml@main
     secrets:
       AUTOMATION_TOKEN: ${{ secrets.AUTOMATION_TOKEN }}
       SLACK_WEBHOOK : ${{secrets.SLACK_WEBHOOK}}
