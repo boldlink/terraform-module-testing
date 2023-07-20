@@ -5,7 +5,7 @@ on:
     branches:
       - 'fix/*'
       - 'fixes/*'
-      - 'feat*'
+      - 'feature/*'
       - 'hotfix/*'
       - 'hotfixes/*'
       - 'release/*'
