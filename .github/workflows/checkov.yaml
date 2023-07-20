@@ -5,7 +5,7 @@ on:
       - '!main'
       - 'fix/*'
       - 'fixes/*'
-      - 'feature/*'
+      - 'feat*/*'
       - 'hotfix/*'
       - 'hotfixes/*'
       - 'release/*'
