@@ -1,0 +1,15 @@
+name: auto-merge
+
+on:
+  pull_request:
+    types:
+    - opened
+    - labeled
+    - reopened
+
+jobs:
+  auto-merge:
+    uses: boldlink/terraform-module-support/.github/workflows/auto-merge.yaml@feature/auto-merge
+    secrets:
+      AUTOMATION_TOKEN: ${{ secrets.AUTOMATION_TOKEN }}
+      SLACK_WEBHOOK : ${{secrets.SLACK_WEBHOOK}}
