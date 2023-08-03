@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: boldlink/terraform-module-support/.github/workflows/update.yaml@main
+    uses: boldlink/terraform-module-support/.github/workflows/update.yaml@feature/auto-merge
     secrets:
       AUTOMATION_TOKEN: ${{ secrets.AUTOMATION_TOKEN }}
       SLACK_WEBHOOK : ${{secrets.SLACK_WEBHOOK}}
