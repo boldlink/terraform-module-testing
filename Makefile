@@ -105,14 +105,14 @@ tfexampleclean:
 	done
 
 tfmoduleclean:
-	@if [ -d $(SUBDIRS) ]; then \
+	@if [ -d $(SUPPORTING_PATH) ]; then \
 		echo "=====================================================================================================" ;\
 		echo "[info]: Cleaning the $(SUPPORTING_PATH) resources" ;\
 		echo "=====================================================================================================" ;\
 		cd $(SUPPORTING_PATH) ;\
 		rm -rf .terraform* ;\
 	fi
-	@for folder in $(MODULEDIRS) ; do \
+	@for folder in $(SUBDIRS) ; do \
 		echo "=====================================================================================================" ;\
 		echo "[info]: Cleaning $$folder terraform files" ;\
 		echo "=====================================================================================================" ;\
