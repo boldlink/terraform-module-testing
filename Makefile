@@ -105,7 +105,7 @@ tfexampleclean:
 	done
 
 tfmoduleclean:
-	@if [ -d $(SUPPORTING_PATH) ]; then \
+	@if [ -d $(SUBDIRS) ]; then \
 		echo "=====================================================================================================" ;\
 		echo "[info]: Cleaning the $(SUPPORTING_PATH) resources" ;\
 		echo "=====================================================================================================" ;\
